@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: jvm-build-suite-component-lctz
     app.kubernetes.io/part-of: jvm-build-suite-application-slie
-  name: jvm-build-suite-componentjivd
+  name: jvm-build-suite-componentxs5r
   namespace: jvm-build-kmap-tenant
 spec:
   port:

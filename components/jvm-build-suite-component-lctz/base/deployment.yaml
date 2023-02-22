@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: jvm-build-suite-component-lctz
     spec:
       containers:
-      - image: quay.io/rh_ee_tnevrlka/test-images:f5b2fc12d854484997ff82355617dc35
+      - image: quay.io/rh_ee_tnevrlka/test-images@sha256:71c20a926a7a6b380b679caa501f5423fe97a6bff872c221b26f2253c8693508
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
