@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: jvm-build-suite-component-lctz
+  namespace: jvm-build-kmap-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/rh_ee_tnevrlka/test-images@sha256:71c20a926a7a6b380b679caa501f5423fe97a6bff872c221b26f2253c8693508
+        name: container-image
+        resources: {}
+status: {}
